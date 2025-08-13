@@ -1,29 +1,22 @@
 # BriefMaster
 
-**Briefings inteligentes, projetos de sucesso.**
+**Briefings Inteligentes, Projetos de Sucesso.**
 
-Uma aplicação web feita com Next.js e TailwindCSS que utiliza a API do ChatGPT para gerar briefings profissionais a partir de um formulário interativo.
+Aplicativo Next.js com API segura para OpenAI e suporte a PWA.
 
-## 🚀 Tecnologias
-- Next.js
-- TailwindCSS
-- OpenAI API
+## Requisitos
+- Node 18+
+- Chave de API da OpenAI em `.env.local`:
 
-## 📦 Como rodar localmente
+```
+OPENAI_API_KEY=sk-...
+```
 
-1. Clone o repositório
-2. Instale as dependências:
-   ```bash
-   npm install
-   ```
-3. Crie um arquivo `.env.local` com a variável:
-   ```
-   OPENAI_API_KEY=your-api-key-here
-   ```
-4. Rode o servidor:
-   ```bash
-   npm run dev
-   ```
+## Scripts
+```bash
+npm install
+npm run dev
+```
 
-## ✨ Deploy com Vercel
-[Deploy com 1 clique](https://vercel.com/new/import?s=https://github.com/fransilvafsd/briefmaster-app)
+## Deploy
+Conecte no GitHub e faça deploy na Vercel.
